@@ -1,4 +1,11 @@
-<h1>Sample App</h1>
+<% provide(:title, 'Home') %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home | <%= yield(:title) %>/title>
+  </head>
+  <body>
+    <h1>Sample App</h1>
 <p>
   ESTE ES LA PAGINA PRINCIPAL DE 
   <a href="http://railstutorial.org/">TUTORIAL RUBY ON RAILS</a>
@@ -7,3 +14,20 @@
 <p>  
   SIMPLE APLICACION (LCML).
 </p>
+
+<p>  
+ <a href="http://localhost:3000/static_pages/help">help</a>
+</p>
+
+<p>  
+  <a href="http://localhost:3000/static_pages/about">about</a>
+</p>
+
+<p>  
+  <a href="http://facebook.com">FACEBOOK</a> </p>
+<p>  
+  <a href="https://twitter.com/">TWITTER</a>
+</p>
+
+  </body>
+</html>
