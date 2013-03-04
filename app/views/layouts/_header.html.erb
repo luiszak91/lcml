@@ -1,0 +1,18 @@
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <%= link_to "lcml app", root_path, id: "logo" %>
+      <nav>
+        <ul class="nav pull-right">
+        <!-- esto debe ir igual a los spec - request -->
+          <li><%= link_to "Home",    root_path %>  </li>
+          <li><%= link_to "Help",    help_path %>  </li>
+          <li><%= link_to "Sign up", signup_path %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
