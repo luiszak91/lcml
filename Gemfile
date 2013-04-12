@@ -27,8 +27,14 @@ end
 gem 'jquery-rails', '2.0.2'
 
 group :test do
+#le añadimos esta gema para la creacion de la fabrica de usuarios
+  gem 'factory_girl_rails', '4.1.0'
   gem 'capybara', '1.1.2'
 end
+
+#le añadimos esta gema para la creacion de la fabrica de usuarios
+
+
 
 group :production do
   gem 'pg', '0.12.2'
